@@ -16,11 +16,10 @@ nav {
     top: 0;
     z-index: 10;
 }
-nav .logo {
-    color: white;
-    font-size: 22px;
-    font-weight: bold;
-    margin-right: 0;
+.logo img{
+   height: 70px;
+   width: 70px;
+   padding-bottom: -100px;
 }
 nav ul {
     list-style: none;
@@ -28,11 +27,28 @@ nav ul {
     gap: 25px;
 }
 nav ul li a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 16px;
+    margin-right: 50px;
+    margin-left: -35px;
 }
-
+nav ul li a:hover{
+    text-decoration: underline;
+    color: #222;
+}
+.button{
+    background-color: #ff4d4d;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transform: 2s;
+}
+.button:hover{
+    background-color: #c76262e3;
+}
 .hero {
     background: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836') center/cover no-repeat;
     height: 90vh;
@@ -121,9 +137,15 @@ section {
     border-radius: 10px;
     box-shadow: 0 0 8px #ccc;
 }
+
 .menu-item img {
     width: 100%;
     border-radius: 10px;
+    transition: 0.2s;
+}
+.menu-item img:hover{
+    width: 101%;
+    box-shadow: 0 2px 2px #222;
 }
 
 
@@ -132,13 +154,17 @@ section {
     justify-content: center;
     gap: 25px;
 }
+
 .service-box {
     width: 250px;
     background: #ffecec;
     padding: 20px;
     border-radius: 10px;
+    transition: 0.6s;
 }
-
+.service-box:hover{
+    background-color: #f9d3d3;
+}
 .signup-box {
     width: 300px;
     margin: auto;
@@ -150,6 +176,10 @@ section {
     width: 100%;
     padding: 10px;
     margin: 8px 0;
+    text-align: left;
+    margin-left: -13px;
+    border: none;
+    border-radius: 9px;
 }
 .signup-box button {
     width: 100%;
@@ -157,13 +187,36 @@ section {
     background: #ff4d4d;
     color: white;
     border: none;
+    margin-top: 10px;
+    border-radius: 9px;
 }
-
+.signup-box button:hover{
+    background-color: #ff7070;
+}
 
 footer {
     background: #222;
     color: white;
     padding: 20px;
 }
+.view-menu{
+    display: block;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #222;
+    background-color: #f68b8b;
+    width: 160px;
+    height: 35px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 44px;
+    padding-top: 10px;
+    font-weight: bold;
 
+}
+.view-menu:hover{
+    background-color: #ff7070;
+
+}
 
