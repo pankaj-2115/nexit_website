@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+nav {
+    background: #ff4d4d;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+nav .logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836') center/cover no-repeat;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.hero-text h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.hero .btn {
+    background: #ff4d4d;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+section {
+    padding: 100px 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+#about {
+    margin-top: 50px;
+}
+
+.about-bg {
+    background: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836') center/cover no-repeat;
+    padding: 80px 20px;
+    color: white;
+}
+
+.about-content {
+    max-width: 900px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.about-content h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.about-box {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-box img {
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+}
+
+.about-box p {
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+
+.menu-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.menu-item {
+    width: 250px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #ccc;
+}
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.service-box {
+    width: 250px;
+    background: #ffecec;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.signup-box {
+    width: 300px;
+    margin: auto;
+    background: #fff0f0;
+    padding: 25px;
+    border-radius: 10px;
+}
+.signup-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+.signup-box button {
+    width: 100%;
+    padding: 12px;
+    background: #ff4d4d;
+    color: white;
+    border: none;
+}
+
+
+footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+}
+
+
